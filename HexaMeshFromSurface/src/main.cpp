@@ -24,7 +24,7 @@ int main(int, char *argv[]) {
 	reader->Update();
 
 	vtkSmartPointer<vtkDataSetSurfaceFilter> surfaceFilter = vtkSmartPointer<vtkDataSetSurfaceFilter>::New();
-	surfaceFilter->SetInput(reader->GetOutput());
+	surfaceFilter->SetInputData(reader->GetOutput());
 	surfaceFilter->Update();
 
 	vtkPolyData* meshData = surfaceFilter->GetOutput();
@@ -93,7 +93,7 @@ int main(int, char *argv[]) {
 
 	pointLocator->InitPointInsertion(points->GetPoints(), points->GetBounds());
 
-	double dx = 0.1, dy = 0.1, dz = 0.1;
+	double dx = 0.025, dy = 0.025, dz = 0.025;
 
 	int total_points_x = (max_x-min_x)/dx;
 	int total_points_y = (max_y-min_y)/dy;
@@ -238,8 +238,8 @@ int main(int, char *argv[]) {
 
 	vtkSmartPointer<vtkXMLUnstructuredGridWriter> writer = vtkSmartPointer<vtkXMLUnstructuredGridWriter>::New();
 
-	writer->SetInput(ug);
-	writer->SetFileName("cubo.vtu");
+	writer->SetInputData(ug);
+	writer->SetFileName("cubo_25um.vtu");
 	writer->Write();
 
 

@@ -244,11 +244,11 @@ void convertAlgToEnSightHash3D(std::vector<std::string> files, double sideLenght
 
 		vtkSmartPointer<vtkXMLUnstructuredGridWriter> writer = vtkSmartPointer<vtkXMLUnstructuredGridWriter>::New();
 
-		writer->SetInput(ug);
+		writer->SetInputData(ug);
 		writer->SetFileName(fullPath.c_str());
 		writer->Write();
 
-	}
+        }
 }
 
 void convertAlgToVTKHash(std::vector<std::string> files, double sideLenght) {
@@ -396,7 +396,7 @@ void convertAlgToVTKHash(std::vector<std::string> files, double sideLenght) {
 
 		vtkSmartPointer<vtkXMLUnstructuredGridWriter> writer = vtkSmartPointer<vtkXMLUnstructuredGridWriter>::New();
 
-		writer->SetInput(ug);
+		writer->SetInputData(ug);
 		writer->SetFileName(fullPath.c_str());
 		writer->Write();
 
@@ -559,7 +559,7 @@ void convertPetscToVTKHash(std::vector<std::string> files, const char* meshName)
 
 		vtkSmartPointer<vtkXMLUnstructuredGridWriter> writer = vtkSmartPointer<vtkXMLUnstructuredGridWriter>::New();
 
-		writer->SetInput(ug);
+		writer->SetInputData(ug);
 		writer->SetFileName(fullPath.c_str());
 		writer->Write();
 
