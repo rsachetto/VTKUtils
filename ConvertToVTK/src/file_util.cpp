@@ -6,13 +6,11 @@
  */
 
 #include "file_util.h"
-#include <cstdlib>
-#include <cstdio>
 #include <dirent.h>
-#include <errno.h>
 #include <algorithm>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include "alphanum.hpp"
 
 bool startsWith(std::string &str, std::string &prefix) {
 
@@ -31,12 +29,13 @@ int getFilesFromDir (std::string dir, std::vector<std::string> &files, std::stri
     DIR *dp;
     struct dirent *dirp;
     if((dp  = opendir(dir.c_str())) == NULL) {
-        std::cout << "Error(" << errno << ") opening " << dir << std::endl;
-        return errno;
+        std::cout << "Error opening " << dir << std::endl;
+        exit(0);
     }
 
     while ((dirp = readdir(dp)) != NULL) {
     	std::string file_name(dirp->d_name);
+
     	if(!filter.empty()) {
     		if(startsWith(file_name, filter)) {
     	        files.push_back(dir +"/" + std::string(dirp->d_name));
@@ -47,7 +46,8 @@ int getFilesFromDir (std::string dir, std::vector<std::string> &files, std::stri
     	}
     }
 
-    std::sort(files.begin(), files.end());
+    std::sort(files.begin(), files.end(),  doj::alphanum_less<std::string>());
+
 
     closedir(dp);
     return 0;

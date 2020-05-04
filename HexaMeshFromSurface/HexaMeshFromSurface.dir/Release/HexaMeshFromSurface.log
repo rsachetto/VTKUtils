@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\sachetto\Dropbox\Universidade\Pesquisa\VTKUtils\HexaMeshFromSurface\src\main.cpp(40): warning C4101: 'i': unreferenced local variable
+  HexaMeshFromSurface.vcxproj -> D:\sachetto\Dropbox\Universidade\Pesquisa\VTKUtils\HexaMeshFromSurface\Release\HexaMeshFromSurface.exe

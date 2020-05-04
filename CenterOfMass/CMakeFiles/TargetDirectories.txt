@@ -1,0 +1,3 @@
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/CenterOfMass/CMakeFiles/rebuild_cache.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/CenterOfMass/CMakeFiles/CenterOfMass.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/CenterOfMass/CMakeFiles/edit_cache.dir

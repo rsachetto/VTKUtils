@@ -1,0 +1,6 @@
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/CMakeFiles/rebuild_cache.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/CMakeFiles/ConvertToVTK.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/CMakeFiles/edit_cache.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/src/hash/CMakeFiles/rebuild_cache.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/src/hash/CMakeFiles/hashes.dir
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/ConvertToVTK/src/hash/CMakeFiles/edit_cache.dir

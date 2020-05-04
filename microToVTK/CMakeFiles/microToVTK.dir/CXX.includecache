@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/microToVTK/main.cpp
+volume.h
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/microToVTK/volume.h
+iostream
+-
+cstdlib
+-
+fstream
+-
+string
+-
+sstream
+-
+vector
+-
+
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/microToVTK/volume.cpp
+volume.h
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/microToVTK/volume.h
+string
+-
+
+/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/microToVTK/volume.h
+string
+-
+

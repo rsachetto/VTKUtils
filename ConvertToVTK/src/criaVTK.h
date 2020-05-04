@@ -17,6 +17,7 @@
 #include <vtkSmartPointer.h>
 #include <vtkPoints.h>
 #include <vtkFloatArray.h>
+#include <vtkDoubleArray.h>
 #include <vtkCellArray.h>
 #include <vtkTriangle.h>
 #include <vtkUnstructuredGrid.h>
@@ -25,11 +26,8 @@
 #include <vtkXMLUnstructuredGridWriter.h>
 #include <vtkMergePoints.h>
 #include <vtkPolyData.h>
-#include "Point.h"
 
-bool is_in_points(Point *point, vtkPoints* points);
-void convertAlgToVTKHash(std::vector<std::string> files, double sizeLen);
-void convertAlgToEnSightHash3D(std::vector<std::string> files, double sizeLen);
-void convertPetscToVTKHash(std::vector<std::string> files, const char* meshFile);
+void convertAlgToVTK3D(std::vector<std::string> files, bool binary, bool adaptive);
+void convertAlgToVTK3D(std::vector<std::string> files, double sideLenght, bool binary);
 
 #endif /* CRIAVTK_H_ */

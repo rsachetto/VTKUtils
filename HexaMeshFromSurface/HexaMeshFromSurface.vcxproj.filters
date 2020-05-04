@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\sachetto\Dropbox\Universidade\Pesquisa\VTKUtils\HexaMeshFromSurface\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\sachetto\Dropbox\Universidade\Pesquisa\VTKUtils\HexaMeshFromSurface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{212E8256-A3EC-3118-94CA-DE2D81D8F140}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
