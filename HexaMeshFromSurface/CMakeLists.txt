@@ -4,6 +4,8 @@ project(HexaMeshFromSurface)
 find_package(VTK REQUIRED)
 include(${VTK_USE_FILE})
  
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 add_executable(HexaMeshFromSurface src/main.cpp)
 
 
