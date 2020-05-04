@@ -30,3 +30,6 @@ bin/
 */Debug/
 *.vtk
 *.vtu
+CMakeCache.txt
+*/CMakeFiles/
+cmake_install.cmake
