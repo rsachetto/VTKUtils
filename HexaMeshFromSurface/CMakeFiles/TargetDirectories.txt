@@ -1,3 +1,0 @@
-/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/HexaMeshFromSurface/CMakeFiles/rebuild_cache.dir
-/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/HexaMeshFromSurface/CMakeFiles/HexaMeshFromSurface.dir
-/home/sachetto/Dropbox/Universidade/Pesquisa/VTKUtils/HexaMeshFromSurface/CMakeFiles/edit_cache.dir
